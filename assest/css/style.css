@@ -1,0 +1,57 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Cookie&family=Dosis&family=Fira+Sans&family=Josefin+Sans:wght@700&family=Martian+Mono:wght@500&family=Montserrat&family=Raleway&family=Roboto&family=Urbanist&display=swap');
+
+body{
+    font-family: 'Bree Serif', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: .5s;
+}
+p{
+    font-size: 22px;
+}
+li{
+    font-size: 18px;
+}
+.main ul,.main ol{
+    background-color: rgb(224, 220, 220);
+}
+.list-group-item{
+    background-color: rgb(194, 186, 186);
+    transition: .5s;
+}
+.list-group-item:hover{
+    background-color: black;
+}
+.list-group-item:hover a{
+    color: white;
+}
+span{
+    position: absolute;
+    top: 8px;
+    right: 12px;
+}
+span:hover{
+    cursor: pointer;
+}
+.code{
+    width: fit-content;
+}
+pre , code{
+    font-size: 16px;
+    padding-inline: 15px;
+    font-family: 'Bree Serif', serif;
+} 
+
+.side-nav{
+   position: sticky;
+   top:10px
+
+}
